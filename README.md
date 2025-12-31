@@ -36,31 +36,43 @@ RAG (Retrieval-Augmented Generation)
 Production-grade AI systems
 
 📦 Tech Stack Used
-Library	Why I Use It
-LangGraph	Core framework for graph-based agents
-LangChain	LLM abstractions, tools, prompts
-langchain_openai	OpenAI model integration
-langchain_community	Loaders, vector stores, OSS tools
-ChromaDB	Local vector database for RAG
-python-dotenv	Secure API key handling
-typing / typing_extensions	Type safety & clarity
-IPython	Interactive experimentation
+Library	                    Why I Use It
+LangGraph	                Core framework for graph-based agents
+LangChain	                LLM abstractions, tools, prompts
+langchain_openai         	OpenAI model integration
+langchain_community	         Loaders, vector stores, OSS tools
+ChromaDB	                 Local vector database for RAG
+python-dotenv	             Secure API key handling
+typing / typing_extensions	 Type safety & clarity
+IPython	                    Interactive experimentation
+
+
 📁 Project Structure (Learning-Oriented)
 LangGraph_Tutorial/
 │
-├── graphs/                # LangGraph workflows (core learning)
+├── graphs/   
+
+             # LangGraph workflows (core learning)
+
 │   ├── basic_graph.py
+
 │   ├── conditional_graph.py
+
 │   └── agent_graph.py
 │
 ├── experiments/           # Scratch & exploration code
 │
-├── utils/                 # Helper functions (LLM, state, tools)
+├── utils/  
+               # Helper functions (LLM, state, tools)
 │
-├── main.py                # Run graphs from here
+├── main.py  
+              # Run graphs from here
 ├── requirements.txt
+
 ├── pyproject.toml
-├── .env                   # API keys (ignored in git)
+
+├── .env        
+           # API keys (ignored in git)
 └── README.md
 
 🚀 Setup Instructions (Developer Friendly)
